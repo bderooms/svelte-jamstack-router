@@ -1,6 +1,7 @@
 # The MIT License
 
-Copyright (c) 2019, Alessandro Segala
+Original project (svelte-spa-router) by Alessandro Segala, Copyright (c) 2019.
+Modifications (svelte-jamstack-router) by Brecht De Rooms, Copyright (c) 2020.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
