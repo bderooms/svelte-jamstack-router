@@ -1,5 +1,24 @@
-# svelte-spa-router
+# FORK
 
+This repository is a fork of the excellent https://github.com/ItalyPaleAle/svelte-spa-router
+I choose this library over other svelte routers for its simplicity. However, since I decided to prerender and hydrate my views, the # approach is not ideal. 
+Therefore, I adapted the library to work without hashes. This, of course, requires that there is an html page available at each of your routes to hydrate from, if that is not the case, do not look into this code. 
+
+# Disclaimer
+I did this as part of my #100 days challenge and did 'just enough' I did not clean it up yet.
+
+# Regular a tags do not work, use use:link. 
+You have to use the style of links with 'use:link'
+(<a href="/login" use:link>login</a>)
+since we override the default behaviour of clicking the link to make sure the page does not refresh. 
+
+
+
+> Original Documentation below < 
+
+
+
+# svelte-spa-router
 [![Build Status](https://github.com/ItalyPaleAle/svelte-spa-router/workflows/Continuous%20Integration%20tests/badge.svg)](https://github.com/ItalyPaleAle/svelte-spa-router/actions) 
 [![npm](https://img.shields.io/npm/v/svelte-spa-router.svg)](https://www.npmjs.com/package/svelte-spa-router)
 [![GitHub](https://img.shields.io/github/license/ItalyPaleAle/svelte-spa-router.svg)](https://github.com/ItalyPaleAle/svelte-spa-router/blob/master/LICENSE.md)
